@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuppon?</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container-fluid p-3 px-4 d-flex justify-content-between align-items-center" style="background-color: #28A745;">
+        <div>
+            <figure style="height: 30px; margin: 0;">
+                <img class="h-100 object-fit-contain" src="./assets/img/logo-white.png" alt="Logo">
+            </figure>
+        </div>
+        <div>
+            <nav class="d-none d-sm-block">
+                <ul class="d-flex justify-content-center align-items-center list-unstyled gap-3 m-0">
+                    <li class="text-white">
+                        Home
+                    </li>
+                    <li class="text-white-50">
+                        Features
+                    </li>
+                    <li class="text-white-50">
+                        Pricing
+                    </li>
+                    <li class="text-white-50">
+                        Disable
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="navbar d-flex align-items-end d-sm-none navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" style="background-color: #28A745;">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./sorprice.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./sorprice.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sorprice.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sorprice.html">Disable</a>
+                    </li>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container pt-4 mb-3">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/Omori.jpg" alt="Juego Omori">
+                    <div class="card-body">
+                            <h5 class="card-title">Omori</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                  Autor: Omocat
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                  Año: 2020
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                 Engine: RPG Maker MV
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Estados Unidos
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $12.060
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    CLP $7.700
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/Wadanohara.jpg" alt="Juego Wadanohara">
+                    <div class="card-body">
+                            <h5 class="card-title">Wadanohara and the Great Blue Sea</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                  Autor: Funamusea (Deep Sea Prisoner)
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                  Año: 2013
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                 Engine: RPG Maker 2000
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Japón
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $2.600
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    GRATIS
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/Ib-Remake.jpg" alt="Juego Ib">
+                    <div class="card-body">
+                            <h5 class="card-title">Ib Remake</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                  Autor: Omocat
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                  Año: 2012
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                 Engine: RPG Maker 2000
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Japón
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $8.300
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    CLP $5.700
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="./assets/img/Mad-Father.jpg" alt="Juego Mad Father">
+                    <div class="card-body">
+                        <h5 class="card-title">Mad Father</h5>
+                        <p class="card-text mb-auto text-secondary">
+                            Autor: Sen (Miscreant's Room)
+                        </p>
+                        <p class="card-text mb-auto text-secondary">
+                            Año: 2012
+                        </p>
+                        <p class="card-text mb-auto text-secondary">
+                            Engine: WOLF RPG Editor
+                        </p>
+                        <p class="card-text mb-auto text-secondary">
+                            <i class="fa-solid fa-location-dot"></i> Japón
+                        </p>
+                        <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                             CLP $6.120
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    CLP $4.400
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/One-Shot.jpg" alt="Juego OneShot">
+                    <div class="card-body">
+                            <h5 class="card-title">OneShot</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                Autor: Mathewvq y Nightmargin
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                Año: 2014
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                Engine: RPG Maker 2003
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Estados Unidos
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $11.115
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    CLP $5.750
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/Yanderella.jpg" alt="Juego Yanderella">
+                    <div class="card-body">
+                            <h5 class="card-title">Yanderella</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                Autor: Charon
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                Año: 2013
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                Engine: RPG Maker 2000
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Japón
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $2.400
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    GRATIS
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/Yume-Nikki.jpg" alt="Juego Yume Nikki">
+                    <div class="card-body">
+                            <h5 class="card-title">Yumi Nikki (Dream Diary)</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                  Autor: Kikiyama
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                  Año: 2004
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                 Engine: RPG Maker 2003
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Japón
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $7.700
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    GRATIS
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/Witch-House.jpg" alt="Juego Witch House">
+                    <div class="card-body">
+                            <h5 class="card-title">The Witch's House</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                  Autor: Fummy
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                  Año: 2012
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                 Engine: RPG Maker VX
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Japón
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $12.690
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    CLP $6.400
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                        <img class="card-img-top" src="./assets/img/Angels-of-Death.jpg" alt="Juego Angels of Death">
+                    <div class="card-body">
+                            <h5 class="card-title">Angels of the Death</h5>
+                            <p class="card-text mb-auto text-secondary">
+                                  Autor: Forest of Drizzling Rain
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                  Año: 2016
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                 Engine: RPG Maker VX Ace
+                            </p>
+                            <p class="card-text mb-auto text-secondary">
+                                <i class="fa-solid fa-location-dot"></i> Japón
+                            </p>
+                            <br>
+                    </div>
+                        <div class="card-footer d-flex justify-content-end align-items-center gap-2">
+                            <span class="text-muted text-decoration-line-through">
+                                CLP $8.757
+                            </span>    
+                            <span>
+                                <strong class="price fs-5">
+                                    CLP $5.500
+                                </strong>
+                            </span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid col-12 p-4" style="background-color: #28A745;">
+        <div class="container">
+            <div class="row text-center text-white mb-3"><h3>Recibe ofertas en tu correo</h3></div>
+            <div class="row mb-3">
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            </div>
+            <div class="row mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Correo">
+            </div>
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <button class="btn btn-light" type="button">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+        <figure style="height: 30px;">
+            <img class="h-100" src="./assets/img/logo-black.png" alt="Logo">
+        </figure>
+    </div>
+    <footer class="text-center p-3">Copyright © 2023 Chayo Bee All Rights Reserved</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/00d4b39110.js" crossorigin="anonymous"></script>
+</body>
+</html>
